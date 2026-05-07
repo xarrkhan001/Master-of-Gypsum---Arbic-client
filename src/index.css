@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+Arabic:wght@300;400;500;600;700;800;900&family=Outfit:wght@500;700;800&display=swap');
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 20 14% 4%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 14% 4%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14% 4%;
+
+    --primary: 43 60% 45%; /* Premium Bronze/Gold */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 10% 15%; /* Deep Slate/Charcoal */
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 210 10% 96%;
+    --muted-foreground: 210 10% 40%;
+
+    --accent: 43 60% 95%;
+    --accent-foreground: 43 60% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 20 14% 90%;
+    --input: 20 14% 90%;
+    --ring: 38 75% 50%;
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 20 14% 4%;
+    --foreground: 0 0% 98%;
+
+    --card: 20 14% 6%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 20 14% 4%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 38 75% 50%;
+    --primary-foreground: 20 14% 4%;
+
+    --secondary: 20 14% 12%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 20 14% 12%;
+    --muted-foreground: 20 14% 65%;
+
+    --accent: 38 75% 10%;
+    --accent-foreground: 38 75% 90%;
+
+    --border: 20 14% 15%;
+    --input: 20 14% 15%;
+    --ring: 38 75% 50%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground transition-colors duration-300;
+    font-family: 'Inter', 'Noto Sans Arabic', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .arabic-font {
+    font-family: 'Noto Sans Arabic', sans-serif;
+  }
+  
+  .logo-font {
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  .gradient-gold {
+    @apply bg-gradient-to-r from-[#B8860B] via-[#FFD700] to-[#DAA520];
+  }
+  
+  .glass {
+    @apply bg-white/10 backdrop-blur-md border border-white/20;
+  }
+  
+  .glass-dark {
+    @apply bg-black/40 backdrop-blur-xl border border-white/10;
+  }
+
+  .rtl-flip {
+    transform: scaleX(-1);
+  }
+}
