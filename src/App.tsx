@@ -71,12 +71,12 @@ export default function App() {
         )}
 
         {currentPage === "about" && <AboutSection t={t} lang={lang} />}
-        {currentPage === "services" && <ServicesSection t={t} navigateTo={navigateTo} />}
-        {currentPage === "portfolio" && <PortfolioSection t={t} />}
+        {currentPage === "services" && <ServicesSection t={t} navigateTo={navigateTo} lang={lang} />}
+        {currentPage === "portfolio" && <PortfolioSection t={t} lang={lang} />}
         {currentPage === "reviews" && <TestimonialsSection t={t} lang={lang} />}
-        {currentPage === "faq" && <FAQSection t={t} />}
+        {currentPage === "faq" && <FAQSection t={t} lang={lang} navigateTo={navigateTo} />}
         {currentPage === "contact" && (
-          <ContactSection t={t} PHONE_NUMBER={PHONE_NUMBER} EMAIL={EMAIL} />
+          <ContactSection t={t} PHONE_NUMBER={PHONE_NUMBER} EMAIL={EMAIL} lang={lang} />
         )}
       </main>
 
@@ -85,6 +85,7 @@ export default function App() {
         PHONE_NUMBER={PHONE_NUMBER}
         EMAIL={EMAIL}
         navigateTo={navigateTo}
+        lang={lang}
       />
     </div>
   )
