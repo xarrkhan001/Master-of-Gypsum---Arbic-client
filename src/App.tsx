@@ -32,6 +32,7 @@ export default function App() {
   useEffect(() => {
     document.documentElement.dir = t.dir
     document.documentElement.lang = lang
+    document.title = lang === "ar" ? "معلم الجبس والديكور" : "Master of Gypsum & Decor"
     window.scrollTo({ top: 0, behavior: "smooth" })
   }, [lang, t.dir, currentPage])
 

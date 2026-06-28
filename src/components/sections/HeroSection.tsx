@@ -20,8 +20,8 @@ export function HeroSection({ t, lang, currentSlide, slides, navigateTo }: HeroS
               <Sparkles className="h-3 w-3 mx-1" /> {t.hero.badge}
             </Badge>
             <h1 className={`mb-6 font-black leading-[1.1] tracking-tighter ${lang === "en" ? "text-3xl sm:text-5xl xl:text-6xl" : "text-4xl sm:text-6xl xl:text-7xl"}`}>
-              <span className="block whitespace-nowrap">{t.hero.title1}</span>
-              <span className="text-primary block whitespace-nowrap">{t.hero.title2}</span>
+              <span className="block">{t.hero.title1}</span>
+              <span className="text-primary block">{t.hero.title2}</span>
             </h1>
             <p className="mb-10 max-w-xl text-lg text-muted-foreground leading-relaxed font-medium">{t.hero.desc}</p>
             <div className={`flex flex-col gap-4 sm:flex-row sm:justify-start`}>
