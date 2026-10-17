@@ -136,7 +136,7 @@ export const content = {
           longDesc: "نتخصص في تنفيذ أسقف الجبس بكل أنواعها وأشكالها، من التصاميم البسيطة الأنيقة إلى التصاميم المعقدة ذات الإضاءة المخفية. نستخدم أجود المواد ونحرص على الدقة في كل التفاصيل لضمان نتيجة تفوق توقعاتك.",
           features: ["سقف بسيط وأنيق (Simple)", "سقف بتصاميم خاصة (Design)", "إضاءة مخفية (Hidden Lights)", "سقف جبس مزخرف", "تركيب سبوت لايت", "عزل حراري وصوتي"],
           process: ["قياس المساحة ومعاينة الموقع", "تقديم التصميم ثلاثي الأبعاد", "توريد المواد وبدء التنفيذ", "تشطيب الدهان والإضاءة", "تسليم وضمان الجودة"],
-          img: "/slide1.png",
+          img: "/hero-2.jpg",
           duration: "3-7 أيام",
           warranty: "ضمان 5 سنوات"
         },
@@ -149,7 +149,7 @@ export const content = {
           longDesc: "نقدم حلول التقسيم الداخلي بأعلى معايير الجودة، سواء للمساحات السكنية أو التجارية. جدراننا الفاصلة تجمع بين الوظيفية والجمال، مع توفير العزل الصوتي الكافي لضمان الخصوصية.",
           features: ["تقسيم الغرف والمساحات", "فواصل مكتبية احترافية", "عزل صوتي وحراري", "جدران جبسية طابقية", "فواصل زجاجية مع جبس", "تشطيب ودهان احترافي"],
           process: ["دراسة المخطط وتحديد التقسيم", "تصميم مقترح بالأبعاد الدقيقة", "توريد الهياكل المعدنية والجبس", "تنفيذ وتشطيب الجدران", "تسليم ومراجعة نهائية"],
-          img: "/slide2.png",
+          img: "/hero-4.jpg",
           duration: "5-10 أيام",
           warranty: "ضمان 5 سنوات"
         },
@@ -162,7 +162,7 @@ export const content = {
           longDesc: "نصمم وننفذ وحدات جدران التلفزيون بأحدث الأساليب العصرية، مع دمج الجبس والخشب والإضاءة في تصميم متناسق ومبهر. كل وحدة نقوم بها هي قطعة فنية مصممة خصيصاً لتناسب ذوقك ومساحتك.",
           features: ["جدران تلفزيون حديثة وفاخرة", "أرفف خشبية وجبسية", "إضاءة LED مدمجة", "تنظيم الأسلاك بشكل أنيق", "تصاميم 3D مسبقة", "تركيب شاشات التلفزيون"],
           process: ["استشارة لفهم ذوقك واحتياجاتك", "تصميم ثلاثي الأبعاد للموافقة", "توريد مواد الجبس والخشب", "تنفيذ وتركيب الوحدة", "تنظيم الأسلاك وتسليم المشروع"],
-          img: "/slide3.png",
+          img: "/hero-3.jpg",
           duration: "3-5 أيام",
           warranty: "ضمان 3 سنوات"
         }
@@ -175,12 +175,12 @@ export const content = {
       categories: ["سقف جبس", "جدران فاصلة", "وحدات تلفزيون"],
       viewProject: "عرض المشروع",
       items: [
-        { img: "/slide1.png",    cat: "سقف جبس",        title: "سقف LED فاخر",             desc: "سقف جبس بإضاءة مخفية لفيلا سكنية في الرياض" },
-        { img: "/gypsum.png",   cat: "سقف جبس",        title: "سقف تصميم مزدوج",         desc: "تصميم سقف مزدوج بالجبس والخشب لغرفة معيشة" },
-        { img: "/slide2.png",   cat: "جدران فاصلة",   title: "فواصل مكتبية عصرية",    desc: "تقسيم مساحة مكتب تجاري بالرياض" },
-        { img: "/partition.png",cat: "جدران فاصلة",   title: "جدار جبسي زجاجي",        desc: "جدار فاصل زجاجي لشركة في الرياض" },
-        { img: "/slide3.png",   cat: "وحدات تلفزيون",  title: "جدار تلفزيون عصري",     desc: "وحدة تلفزيون بتصميم فاخر لشقة سكنية" },
-        { img: "/tv.png",       cat: "وحدات تلفزيون",  title: "وحدة خشب وجبس مدمجة",   desc: "تصميم دمج الجبس والخشب لمنزل فاخر" }
+        { img: "/hero-1.jpg",    cat: "سقف جبس",        title: "صالة فيلا فاخرة",             desc: "سقف جبس عصري مع إضاءة محيطية مخفية وأرضيات رخامية" },
+        { img: "/hero-2.jpg",    cat: "سقف جبس",        title: "سقف معلق مودرن",              desc: "تصميم سقف مستطيل مجوف بإضاءة LED دافئة" },
+        { img: "/hero-4.jpg",    cat: "سقف جبس",        title: "خطوط إضاءة هندسية",          desc: "تصميم خطوط LED هندسية حديثة مدمجة في الجبس" },
+        { img: "/hero-3.jpg",    cat: "وحدات تلفزيون",  title: "جدار تلفزيون لغرفة النوم",     desc: "ديكور جدار شاشة بتشطيب جبسي وإضاءة سقفية هادئة" },
+        { img: "/hero-5.jpg",    cat: "وحدات تلفزيون",  title: "سقف غرفة ماستر عصري",        desc: "إطار إضاءة LED بروفايل مربع لغرفة النوم الرئيسية" },
+        { img: "/hero-1.jpg",    cat: "جدران فاصلة",   title: "تشطيب وتوزيع مساحات",         desc: "تنفيذ فواصل وديكورات متناسقة للصالات والمساحات المفتوحة" }
       ]
     },
     reviews: {
@@ -375,7 +375,7 @@ export const content = {
           longDesc: "We specialize in executing all types and styles of gypsum ceilings — from elegant simple designs to complex ones with hidden lighting. We use the finest materials and pay close attention to every detail to ensure a result that exceeds your expectations.",
           features: ["Simple & elegant ceiling", "Custom design ceilings", "Hidden lighting (LED)", "Decorative gypsum ceiling", "Spotlight installation", "Thermal & acoustic insulation"],
           process: ["Site visit & measurement", "3D design presentation", "Material supply & execution", "Paint finishing & lighting", "Delivery & quality assurance"],
-          img: "/slide1.png",
+          img: "/hero-2.jpg",
           duration: "3–7 Days",
           warranty: "5-Year Warranty"
         },
@@ -388,7 +388,7 @@ export const content = {
           longDesc: "We provide interior partition solutions to the highest quality standards, for both residential and commercial spaces. Our partition walls combine functionality and aesthetics, with sufficient acoustic insulation to ensure privacy.",
           features: ["Room & space dividing", "Professional office partitions", "Acoustic & thermal insulation", "Floor-to-ceiling gypsum walls", "Glass & gypsum combined", "Professional finishing & paint"],
           process: ["Floor plan study & layout planning", "Design proposal with exact dimensions", "Metal framing & gypsum supply", "Wall installation & finishing", "Final review & handover"],
-          img: "/slide2.png",
+          img: "/hero-4.jpg",
           duration: "5–10 Days",
           warranty: "5-Year Warranty"
         },
@@ -401,7 +401,7 @@ export const content = {
           longDesc: "We design and execute TV wall units in the latest modern styles, blending gypsum, wood, and lighting into a cohesive and impressive design. Every unit we build is a custom work of art tailored to your taste and space.",
           features: ["Modern luxury TV walls", "Wooden & gypsum shelves", "Built-in LED lighting", "Elegant cable management", "Pre-approved 3D designs", "TV screen mounting included"],
           process: ["Consultation to understand your taste", "3D design for approval", "Gypsum & wood supply", "Unit installation & assembly", "Cable management & project handover"],
-          img: "/slide3.png",
+          img: "/hero-3.jpg",
           duration: "3–5 Days",
           warranty: "3-Year Warranty"
         }
@@ -414,12 +414,12 @@ export const content = {
       categories: ["Gypsum Ceiling", "Partition Walls", "TV Units"],
       viewProject: "View Project",
       items: [
-        { img: "/slide1.png",    cat: "Gypsum Ceiling",   title: "Luxury LED Ceiling",          desc: "Gypsum ceiling with hidden LED lighting for a residential villa in Riyadh" },
-        { img: "/gypsum.png",   cat: "Gypsum Ceiling",   title: "Double-Layer Ceiling",        desc: "Mixed gypsum and wood double-layer ceiling design for a living room" },
-        { img: "/slide2.png",   cat: "Partition Walls",  title: "Modern Office Partitions",   desc: "Space division for a commercial office in Riyadh" },
-        { img: "/partition.png",cat: "Partition Walls",  title: "Glass & Gypsum Wall",        desc: "Combined glass and gypsum partition wall for a company in Riyadh" },
-        { img: "/slide3.png",   cat: "TV Units",         title: "Modern TV Feature Wall",     desc: "Luxury TV wall unit design for a residential apartment" },
-        { img: "/tv.png",       cat: "TV Units",         title: "Wood & Gypsum TV Unit",      desc: "Blended gypsum and wood TV unit design for a luxury home" }
+        { img: "/hero-1.jpg",    cat: "Gypsum Ceiling",   title: "Luxury Villa Hall",          desc: "Modern gypsum ceiling with perimeter cove lighting and marble flooring" },
+        { img: "/hero-2.jpg",    cat: "Gypsum Ceiling",   title: "Suspended Tray Ceiling",     desc: "Recessed rectangular ceiling design with ambient warm LED glow" },
+        { img: "/hero-4.jpg",    cat: "Gypsum Ceiling",   title: "Geometric Linear LED",       desc: "Architectural linear light profile embedded into gypsum ceiling" },
+        { img: "/hero-3.jpg",    cat: "TV Units",         title: "Bedroom TV Wall Decor",      desc: "Integrated screen wall feature with clean gypsum finish & soft lighting" },
+        { img: "/hero-5.jpg",    cat: "TV Units",         title: "Master Suite Ceiling",       desc: "Square LED light profile tailored for a modern master bedroom" },
+        { img: "/hero-1.jpg",    cat: "Partition Walls",  title: "Open Space Finishing",       desc: "Cohesive partition and ceiling craftsmanship for luxury residences" }
       ]
     },
     reviews: {
@@ -485,9 +485,11 @@ export const content = {
 }
 
 export const slides = [
-  { img: "/slide1.png", title: "Luxury Ceilings" },
-  { img: "/slide2.png", title: "Modern Partitions" },
-  { img: "/slide3.png", title: "TV Wall Units" }
+  { img: "/hero-1.jpg", title: "Luxury Gypsum Hall" },
+  { img: "/hero-2.jpg", title: "Suspended Ceiling Design" },
+  { img: "/hero-3.jpg", title: "Modern Bedroom Gypsum Decor" },
+  { img: "/hero-4.jpg", title: "Geometric Linear LED Ceiling" },
+  { img: "/hero-5.jpg", title: "Master Bedroom Ceiling & Lighting" },
 ]
 
 export const PHONE_NUMBER = "+9660509460890"

@@ -35,7 +35,7 @@ export function ServicesSection({ t, navigateTo, lang = "ar" }: ServicesSectionP
       {/* ── Hero Banner ── */}
       <section className="relative min-h-[380px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/slide1.png" alt="Services hero" className="w-full h-full object-cover" />
+          <img src="/hero-1.jpg" alt="Services hero" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/60 to-black/80" />
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full bg-primary/10 blur-3xl pointer-events-none" />
         </div>

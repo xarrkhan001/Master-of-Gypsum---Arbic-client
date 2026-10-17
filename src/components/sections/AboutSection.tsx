@@ -33,7 +33,7 @@ export function AboutSection({ t, lang }: AboutSectionProps) {
         {/* Background image with dark overlay */}
         <div className="absolute inset-0">
           <img
-            src="/slide1.png"
+            src="/hero-1.jpg"
             alt="About hero"
             className="w-full h-full object-cover"
           />
@@ -84,7 +84,7 @@ export function AboutSection({ t, lang }: AboutSectionProps) {
             <div className={`relative ${isRTL ? "lg:order-2" : "lg:order-1"}`}>
               <div className="relative">
                 <div className="aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-primary/10">
-                  <img src="/slide2.png" className="w-full h-full object-cover" alt="Our Story" />
+                  <img src="/hero-2.jpg" className="w-full h-full object-cover" alt="Our Story" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
                 </div>
                 {/* Floating badge */}

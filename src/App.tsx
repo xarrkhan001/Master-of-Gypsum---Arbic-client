@@ -25,7 +25,7 @@ export default function App() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length)
-    }, 8000)
+    }, 5000)
     return () => clearInterval(timer)
   }, [])
 
@@ -61,6 +61,7 @@ export default function App() {
               t={t}
               lang={lang}
               currentSlide={currentSlide}
+              setCurrentSlide={setCurrentSlide}
               slides={slides}
               navigateTo={navigateTo}
             />
